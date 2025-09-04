@@ -5,7 +5,8 @@ export const Container = styled.section`
   display: flex;
   justify-content: space-between;
   gap: 8rem;
-  background: rgba(0,0,0,0);
+  // background: rgba(0,0,0,0);
+  background: rgba(99, 39, 99, 0);
   .hero-text{
     & > p{
       font-size: 1.8rem;

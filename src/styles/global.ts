@@ -6,6 +6,7 @@ export const GlobalStyle = createGlobalStyle`
     --black: #212121;
     --green: #23ce6b;
     --blue: #016fb9;
+    --bcgclr: #38043eff;
     scroll-padding-top: 10rem;
 
     &.light{
@@ -76,7 +77,7 @@ export const GlobalStyle = createGlobalStyle`
   body{
     font-size: 1.6rem;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--black);
+    background-color: var(--bcgclr);
     color: #FFFF;
   }
 
