@@ -53,6 +53,7 @@ const ProblemSolved: React.FC = () => {
       color: '#fff',
       userSelect: 'none' as const,
       transition: 'all 0.3s ease',
+      marginTop:'20rem'
     },
     title: {
       margin: 0,

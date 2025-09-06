@@ -10,10 +10,10 @@ import githubIcon from '../../assets/github.svg';
 import nodejsIcon from '../../assets/node-icon.svg';
 import javaIcon from '../../assets/java.svg';
 import ScrollAnimation from "react-animate-on-scroll";
-
 export function About() {
   return (
     <Container id="about">
+      
       { (window.innerWidth<960) && <div className="about-image">
         <ScrollAnimation animateIn="fadeInLeft" delay={0.21 * 1000}>
           <img src={PragatiKalwar} alt="Pragati Kalwar" />
