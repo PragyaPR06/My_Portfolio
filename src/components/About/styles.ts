@@ -84,7 +84,8 @@ export const Container = styled.section`
       display: flex;
       max-width: 100%;
       img{
-        margin-top: 2rem;
+        padding-bottom:-10rem;
+        margin-top: -15rem;
         width: 100%;
         filter: grayscale(0);
         transition: filter 0.5s;
