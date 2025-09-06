@@ -17,6 +17,7 @@ import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import ProblemSolved from "../ProblemSolved/problemSolved";
 
 export function Main() {
   return (
@@ -268,6 +269,7 @@ export function Main() {
         }}
       />
       <Hero></Hero>
+      <ProblemSolved />
       <About></About>
       <Project></Project>
       <Contact></Contact>
