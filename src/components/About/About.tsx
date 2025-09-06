@@ -6,6 +6,9 @@ import cssIcon from "../../assets/css-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import githubIcon from '../../assets/github.svg';
+import nodejsIcon from '../../assets/node-icon.svg';
+import javaIcon from '../../assets/java.svg';
 import ScrollAnimation from "react-animate-on-scroll";
 
 export function About() {
@@ -51,8 +54,18 @@ export function About() {
             </ul>
           </div>
         </ScrollAnimation>
-
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={650}>
+          <div className="achievements">
+            <h3>Achievements:</h3>
+            <ul>
+              <li>Selected as LinkedIn CoachIn Mentee’24 (top 70 out of 10,000+)</li>
+              <li>Winner, Shark Tank Entrepreneurial Challenge – E-Cell, NITS, 2023</li>
+              <li>Pupil at Codeforces (max rating 1260), 650+ Leetcode problems solved</li>
+              <li>National level Kho-Kho player</li>
+            </ul>
+          </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <h3>Here are my main skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
@@ -86,18 +99,22 @@ export function About() {
               <img src={boostrapIcon} alt="bootstrap" />
             </ScrollAnimation>
           </div>
-        </div>
-        <ScrollAnimation animateIn="fadeInLeft" delay={650}>
-          <div className="achievements">
-            <h3>Achievements:</h3>
-            <ul>
-              <li>Selected as LinkedIn CoachIn Mentee’24 (top 70 out of 10,000+)</li>
-              <li>Winner, Shark Tank Entrepreneurial Challenge – E-Cell, NITS, 2023</li>
-              <li>Pupil at Codeforces (max rating 1260), 650+ Leetcode problems solved</li>
-              <li>National level Kho-Kho player</li>
-            </ul>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInDown" delay={0.20 * 1000}>
+              <img src={nodejsIcon} alt="node" />
+            </ScrollAnimation>
           </div>
-        </ScrollAnimation>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInDown" delay={0.40 * 1000}>
+              <img src={githubIcon} alt="githubIcon" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInDown" delay={0.50 * 1000}>
+              <img src={javaIcon} alt="java" />
+            </ScrollAnimation>
+          </div>
+        </div>
       </div>
             { (window.innerWidth>=960) && <div className="about-image">
         <ScrollAnimation animateIn="fadeInLeft" delay={0.21 * 1000}>
