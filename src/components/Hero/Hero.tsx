@@ -43,13 +43,13 @@ export function Hero() {
             <a href="https://github.com/pragatikalwar/" target="_blank" rel="noreferrer">
               <img src={githubIcon} alt="GitHub" />
             </a>
-            <a
+{/*             <a
               href="https://api.whatsapp.com/send/?phone=%2B919127519417&text=Hello+Pragat+I+found+your+contact+through+portfolio+site.%0A%0A"
               target="_blank"
               rel="noreferrer"
             >
               <img src={whatsapp} alt="Whatsapp" />
-            </a>
+            </a> */}
             <a href="https://t.me/pragatikalwar" target="_blank" rel="noreferrer">
               <img src={telegram} alt="telegram" />
             </a>
